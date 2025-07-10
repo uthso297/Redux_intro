@@ -1,0 +1,24 @@
+.box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+button{
+  height: 2em;
+}
+
+p{
+  cursor: pointer;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p:hover {
+  background-color: #45a049;
+  transform: scale(1.1); 
+}
